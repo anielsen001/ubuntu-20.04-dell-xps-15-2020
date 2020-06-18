@@ -49,7 +49,7 @@ Add graphics drivers ppa
 sudo add-apt-repository ppa:graphics-drivers/ppa
 ```
 https://forums.linuxmint.com/viewtopic.php?t=276004
-I have an nvidia GeForce GTX 1650 Ti which does not seem to have a linux driver available, at least not obviously supported. Installed latest
+I have an nvidia GeForce GTX 1650 Ti which does not seem to have a linux driver available, at least not obviously supported. It's not auto-detected by any of the Ubuntu driver tools, so I Installed latest manually.
 ```
 sudo apt-get install nvidia-driver-440
 ```
